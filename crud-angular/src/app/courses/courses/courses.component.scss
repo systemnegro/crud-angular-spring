@@ -1,10 +1,18 @@
-table {
-  width: 100%;
+mat-card {
+  max-width: 80%;
+  margin: 2em auto;
+  text-align: center;
 }
 
-.loading-spinner{
+.column-flex {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.loading-spinner {
   padding: 15px;
-  background: rgba(0,0,0,0.15);
+  background: rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
   justify-content: center;
